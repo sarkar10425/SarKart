@@ -45,13 +45,13 @@ The Sarkart website will have these pages:
 * Products Page - This is the page that contains all the products available. It has a feature to search a particular item by typing in the search box.
 
 
-|<img src="./Screenshots/Screenshot (627).png" width="450"/>|<img src="./Screenshots/Screenshot (628).png" width="450"/>|
+|<img src="./Screenshots/Screenshot (627).png" width="400"/>|<img src="./Screenshots/Screenshot (628).png" width="400"/>|
 
 
 * Checkout Page - On clicking the chekout button after adding items to thr cart, we go to the checkout page where we can add / modify / delete addresses and proceed for the payment using wallet balance
 
 
-|<img src="./Screenshots/Screenshot (630).png" width="450"/>|<img src="./Screenshots/Screenshot (634).png" width="450"/>|
+|<img src="./Screenshots/Screenshot (630).png" width="400"/>|<img src="./Screenshots/Screenshot (634).png" width="400"/>|
 
 
 * Confirmation Page - This page shows the confirmation of the order placed sucessfully.
@@ -59,25 +59,11 @@ The Sarkart website will have these pages:
 
 <img src="./Screenshots/Screenshot (635).png" width="900"/>
 
-
-
-## Background
-In this project, I used JavaScript to build on top of the provided HTML and CSS files for QTrip.
-I implemented dynamic functionality such as fetching Cities, Adventures, Adventure Details and Reservations from a backend server. The JavaScript code will fetch this information and manipulate the DOM of the HTML page to make the site interactive.
-
-<img src="./tb5.png" width="900"/>
-
-
-### Data Model
-<hr></hr>
-<img src="./tb6.png" width="900"/>
  
 
 ## Tech Stack Used
 ### Frontend:
-    * HTML
-    * CSS
-    * Vanilla JavaScript
+    * ReactJS
 ### Backend:
     * NodeJS
     * Express
@@ -88,15 +74,17 @@ I implemented dynamic functionality such as fetching Cities, Adventures, Adventu
 ### Get Started
 ##### NodeJS Development Server
 ```
-git clone https://github.com/sarkar10425/Travel-Bingo.git    
-cd xmemes 
+git clone https://github.com/sarkar10425/SarKart.git    
+cd SarKart 
 npm install
 npm start
 ```  
 
-##### Frontend Live Server
+##### React Development Server
 ```
-Select index.html
-Start with Live Server
+git clone https://github.com/sarkar10425/SarKart.git    
+cd SarKart
+npm install
+npm start
 ```
 
